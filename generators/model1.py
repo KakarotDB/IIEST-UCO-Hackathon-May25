@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 
+# Number of Users
 N = 1000
 
 # Static input (120 features)
