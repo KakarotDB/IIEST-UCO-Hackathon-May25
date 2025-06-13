@@ -24,7 +24,7 @@ def final_model():
     def to_risk(score):
         if score < 0.3:
             return 0  # Low
-        elif score < 0.7:
+        elif score < 0.6:
             return 1  # Medium
         else:
             return 2  # High

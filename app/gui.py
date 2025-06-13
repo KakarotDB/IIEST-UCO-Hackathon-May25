@@ -94,7 +94,6 @@ def predict_all():
 
 def run_gui():
     root = tk.Tk()
-    # root.title("Banking Fraud Detection System")
     root.title("Fraud Detection in Banking Transactions")
     root.geometry("600x420")
 
