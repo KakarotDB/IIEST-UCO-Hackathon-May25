@@ -52,8 +52,8 @@ def train_server_model_kmeans():
     labels = kmeans.fit_predict(features_scaled)
 
     """
-    The average of both values to get a single risk value per cluster
-    i -> cluster
+    The average of both values to get a single risk value per cluste..
+    i -> cluster (0,1,2 wrt threat category)
     """
     cluster_risk = {}
     for i in range(3):
