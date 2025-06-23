@@ -1,4 +1,5 @@
 from app.gui import run_gui
+from app.gui_demo import run_gui_demo
 from app.server_testcode import predict_user_cluster
 from train.model1 import train_model1
 from train.model2 import train_model2
@@ -11,7 +12,9 @@ if __name__ == "__main__":
     # train_model2()
     # train_model3()
     # final_model()
-    train_server_model_kmeans()
+    # train_server_model_kmeans()
 
     # predict_user_cluster()
     # run_gui()
+    run_gui_demo()
+

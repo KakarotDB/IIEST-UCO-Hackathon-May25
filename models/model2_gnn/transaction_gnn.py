@@ -12,3 +12,4 @@ class TransactionGNN(nn.Module):
         x = nn.ReLU()(x)
         x = self.conv2(x, edge_index)
         return nn.Sigmoid()(x)
+

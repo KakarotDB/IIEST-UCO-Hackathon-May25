@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.neural_network import MLPClassifier
 import pickle
 import os
-
+import math
 
 def final_model():
     # Simulate output scores from model1, model2, model3
@@ -22,9 +22,9 @@ def final_model():
     # Create target classes based on average risk
     avg_score = X_combined.mean(axis=1)
     def to_risk(score):
-        if score < 0.3:
+        if score < 0.35:
             return 0  # Low
-        elif score < 0.6:
+        elif score < 0.5:
             return 1  # Medium
         else:
             return 2  # High
