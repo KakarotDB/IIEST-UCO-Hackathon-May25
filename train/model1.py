@@ -23,7 +23,7 @@ def train_model1():
     X_seq_tensor = torch.tensor(X_seq)
     y_tensor = torch.tensor(y).unsqueeze(1)
 
-    # Initialize models
+    # Initialize models test
     static_model = StaticBehaviourEncoder()
     lstm_model = SequentialBehaviourLSTM()
     fusion_model = BehaviourRiskScoring()
